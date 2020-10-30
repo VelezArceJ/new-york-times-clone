@@ -1,0 +1,330 @@
+/*ROOT*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*NAV*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    border-bottom: 1px solid rgb(192, 192, 192);
+    background-color: white;
+}
+
+nav p {
+    display: inline-block;
+    font-weight: 900;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    margin-left: 1em;
+    position: relative;
+    line-height: 40px;
+    bottom: 4px;
+}
+
+#toggle-icon {
+    margin-left: 1em;
+    margin-top: 12px;
+}
+
+#search-icon {
+    margin-left: 1.5em;
+}
+
+#nyt-logo {
+    position: relative;
+    top: 5px;
+    margin-left: 26vw;
+}
+
+.nav-buttons {
+    float: right;
+    line-height: 40px;
+    margin-right: 1em;
+}
+
+button {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(86, 123, 149);
+    outline: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    border: transparent;
+}
+
+/*MAIN*/
+
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-size: 36px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+#header-img {
+    display: block;
+    margin: 0 auto;
+    width: 73%;
+    margin-top: 30px;
+}
+
+#header-img img {
+    width: 100%;
+}
+
+#header-img figcaption {
+    padding-top: 5px;
+    color: rgb(75, 75, 75);
+    width: 75%;
+    font-size: .9em;
+}
+
+.photographer {
+    font-size: .9em;
+    color: grey;
+}
+
+#article-container {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 45%;
+    margin-bottom: 30px;
+}
+
+#article-container h4 {
+    margin-bottom: 20px;
+}
+
+#article-container h2 {
+    margin: 20px 0;
+}
+
+#article-date {
+    display: inline;
+    font-size: 14px;
+    margin-right: 20em;
+}
+
+.interaction-icons {
+    background-color: rgb(238, 238, 238);
+    border: transparent;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+article p {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 100;
+    color: rgb(37, 37, 37);
+}
+
+#inflation {
+    width: 950px;
+    position: relative;
+    right: 15vw;
+    margin: 20px 0;
+    z-index: -1;
+}
+
+#inflation figcaption {
+    color: grey;
+    font-size: 16px;
+    margin: 5px 0 10px 0;
+}
+
+#inflation-img {
+    width: 950px;
+}
+
+#fig-grid {
+    display: grid;
+    width: 950px;
+    grid-template-columns: repeat(4, calc(950px / 4));
+    column-gap: 10px;
+    row-gap: 145px;
+    position: relative;
+    bottom: 450px;
+}
+
+.block-info {
+    font-size: 13px;
+}
+
+.block-title {
+    font-weight: 900;
+}
+
+#inflation figcaption:last-child {
+    width: 400px;
+    position: relative;
+    bottom: 130px;
+}
+
+.after-fig {
+    margin-top: -550px;
+}
+
+iframe {
+    margin-top: 40px;
+}
+
+figure img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+#fc-credit {
+    font-size: 12px;
+}
+
+figure {
+    margin-bottom: 50px;
+}
+
+#article-foot {
+    font-size: 12px;
+}
+
+#read-comments {
+    margin-right: 15em;
+    margin-top: 3em;
+    padding: 10px 24px;
+    font-size: 14px;
+}
+
+aside {
+    float: right;
+    text-align: left;
+    width: 25%;
+    margin-right: 3em;
+}
+
+aside h3 {
+    border-top: 1px solid black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 0;
+}
+
+aside p {
+    border-top: 1px solid rgb(189, 188, 188);
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+section {
+    margin-left: 2em;
+    border-top: 1px solid black;
+    width: 65%;
+}
+
+.more-grid {
+    display: grid;
+    grid-template-columns: repeat(3, calc(96% / 3));
+    column-gap: 2%;
+}
+
+section h3 {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.more-grid img {
+    margin-top: 20px;
+}
+
+.more-grid figcaption {
+    text-align: right;
+    font-size: 12px;
+    color: gray;
+}
+
+.more-desc {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.more-date {
+    font-size: 12px;
+    color: gray;
+}
+
+footer {
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-top: .5em;
+    border-top: 2px solid gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#to-home {
+    float: right;
+    font-size: 10px;
+}
+
+#to-home a {
+    text-decoration: none;
+    color: rgb(86, 123, 149);
+}
+
+#footer-grid {
+    display: grid;
+    grid-template-columns: repeat(6, calc(100% / 6));
+}
+
+#footer-grid figcaption {
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+li {
+    list-style: none;
+    font-size: 13px;
+    line-height: 1.7em;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+#small-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 10px;
+    width: 95%;
+    border-top: 1px solid rgb(201, 201, 201);
+}
+
+#small-flex a {
+    color: rgb(131, 131, 131);
+    text-decoration: none;
+}
+
+#small-flex a:hover {
+    text-decoration: underline;
+}
